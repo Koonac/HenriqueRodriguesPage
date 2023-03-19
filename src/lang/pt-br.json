@@ -29,7 +29,7 @@
       "title": "Portfólio",
       "card1": "Um clone do Instagram baseado em PHP com funcionalidade CRUD para postagens e criação de usuários. Projetado para oferecer uma interface amigável e uma experiência perfeita para o gerenciamento de conteúdo de mídia social.",
       "card2": "Um sistema integrado com a plataforma de pagamentos GalaxPay, captando os dados dos clientes da plataforma integrada para impressão de cartões, geração de novos contratos, gestão financeira da empresa e níveis de acesso.",
-      "card3": "Um E-commerce com painel de controle e exibição de produtos. <br> Em progresso...",
+      "card3": "Um projeto Tic Tac Toe com jQuery e CSS um dos meus primeiros projetos em jquery puro, é uma excelente maneira de se divertir jogando um jogo clássico e testar as suas habilidades estratégicas.",
       "btnView": "Ver"
     },
     "contact": {

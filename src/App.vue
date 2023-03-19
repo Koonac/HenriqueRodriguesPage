@@ -100,7 +100,7 @@
                     {{ $t("section.portfolio.card1") }}
                   </b-card-text>
                   <b-card-footer footer-class="text-end">
-                    <b-btn href="https://github.com/Koonac/FakeInsta" class="btnSocial shadow" target="_blank">{{
+                    <b-btn href="https://fakeinsta.henriquersantos.com" class="btnSocial shadow" target="_blank">{{
                       $t("section.portfolio.btnView") }}</b-btn>
                   </b-card-footer>
                 </b-card>
@@ -111,15 +111,15 @@
                     {{ $t("section.portfolio.card2") }}
                   </b-card-text>
                   <b-card-footer footer-class="text-end">
-                    <b-btn href="https://github.com/Koonac/galaxPay-integration" class="btnSocial shadow"
+                    <b-btn href="https://sysgalaxpay.henriquersantos.com" class="btnSocial shadow"
                       target="_blank">{{ $t("section.portfolio.btnView") }}</b-btn>
                   </b-card-footer>
                 </b-card>
-                <b-card title="Loja E-Commerce" img-src="http://www.inforpress.cv/wp-content/uploads/2020/05/empty.jpg"
+                <b-card title="Tic-Tac-Toe" img-src="http://www.inforpress.cv/wp-content/uploads/2020/05/empty.jpg"
                   img-alt="Image" img-top v-scroll-reveal>
                   <b-card-text v-html='$t("section.portfolio.card3")' />
                   <b-card-footer footer-class="text-end">
-                    <b-btn href="https://github.com/Koonac/ecommerce" class="btnSocial shadow" target="_blank">{{
+                    <b-btn href="http://tictactoe.henriquersantos.com" class="btnSocial shadow" target="_blank">{{
                       $t("section.portfolio.btnView") }}</b-btn>
                   </b-card-footer>
                 </b-card>

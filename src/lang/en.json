@@ -28,8 +28,8 @@
     "portfolio": {
       "title": "Portfolio",
       "card1": "A PHP-based Instagram clone with CRUD functionality for posts and user creation. Designed to deliver a user-friendly interface and seamless experience for managing social media content.",
-      "card2": "An integrated system with the GalaxPay payment platform, capturing customer data from the integrated platform for card printing, generating new contracts, managing company finances, and featuring access levels.",
-      "card3": "An e-commerce store with a dashboard and product showcase. <br> In progress...",
+      "card2": "An integrated system with the GalaxPay payment platform, capturing customer data from the integrated platform for card printing, generating new contracts, managing company finances, and featuring access levels. User: admin Pass: admin",
+      "card3": "A Tic Tac Toe project using jQuery and CSS, one of my first projects in pure jQuery, is an excellent way to have fun playing a classic game and testing your strategic skills.",
       "btnView": "View"
     },
     "contact": {

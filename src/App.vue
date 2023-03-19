@@ -119,7 +119,7 @@
                   img-alt="Image" img-top v-scroll-reveal>
                   <b-card-text v-html='$t("section.portfolio.card3")' />
                   <b-card-footer footer-class="text-end">
-                    <b-btn href="http://tictactoe.henriquersantos.com" class="btnSocial shadow" target="_blank">{{
+                    <b-btn href="https://tictactoe.henriquersantos.com" class="btnSocial shadow" target="_blank">{{
                       $t("section.portfolio.btnView") }}</b-btn>
                   </b-card-footer>
                 </b-card>

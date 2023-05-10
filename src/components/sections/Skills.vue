@@ -97,5 +97,8 @@
 <script>
 export default {
   name: "Skills",
+  data: () => ({
+    animate: true,
+  }),
 };
 </script>

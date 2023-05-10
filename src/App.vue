@@ -1,36 +1,36 @@
 <template>
-  <div id="app">
-    <!-- IMPORTANDO LAYOUT DA PÁGINA -->
-    <LayoutMain>
-      <b-container class="container bg-warning w-100" fluid>
-        <!-- DIV DA ABA "Início" -->
-        <section id="inicio" class="bg-danger w-100 fluid">
-          <home />
-        </section>
-        <!-- DIV DA ABA "Sobre" -->
-        <section id="sobre">
-          <about-me />
-        </section>
-        <!-- DIV DA ABA "Habilidades" -->
-        <section id="habilidades">
-          <skills />
-        </section>
-        <!-- DIV DA ABA "Portifólio" -->
-        <section id="portifolio">
-          <projects />
-        </section>
-        <!-- SECTION DE CONTATO -->
-        <section id="contato">
-          <contact />
-        </section>
-      </b-container>
-    </LayoutMain>
+  <div id="app" class="bg-light">
+    <!-- IMPORTANDO TOPO -->
+    <nav-bar />
+    <!-- CONTEÚDO DA PAGINA -->
+    <b-container>
+      <!-- DIV DA ABA "Início" -->
+      <section id="inicio" class="bg-warning border rounded-3">
+        <home />
+      </section>
+      <!-- DIV DA ABA "Sobre" -->
+      <section id="sobre">
+        <about-me />
+      </section>
+      <!-- DIV DA ABA "Habilidades" -->
+      <section id="habilidades" class="bg-warning border rounded-3">
+        <skills />
+      </section>
+      <!-- DIV DA ABA "Portifólio" -->
+      <section id="portifolio">
+        <projects />
+      </section>
+      <!-- SECTION DE CONTATO -->
+      <section id="contato" class="bg-warning border rounded-3">
+        <contact />
+      </section>
+    </b-container>
   </div>
 </template>
 
 <script>
 // IMPORTANDO COMPONENTE LAYOUT
-import LayoutMain from "./components/LayoutMain.vue";
+import NavBar from "@/components/layout/NavBar.vue";
 import Contact from "@/components/sections/Contact.vue";
 import Projects from "@/components/sections/Projects.vue";
 import Skills from "@/components/sections/Skills.vue";
@@ -50,16 +50,13 @@ export default {
     ],
   },
   components: {
-    LayoutMain,
+    NavBar,
     Contact,
     Projects,
     Skills,
     AboutMe,
     Home,
   },
-  data: () => ({
-    animate: true,
-  }),
 };
 </script>
 

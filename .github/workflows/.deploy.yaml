@@ -5,11 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     name: Build Vue
     steps:
-    - uses: actions/checkout@v2
-    - id: Build-Vue
-      uses: LizAinslie/VueBuildToBranchAction@1.0.2+1
-      with:
-        username: 'Koonac'
-        reponame: 'HenriqueRodriguesPage'
-        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
-        gitbranch: 'production' # defaults to 'gh-pages' but can be changed
+      - uses: actions/checkout@v2
+      - id: Build-Vue
+        uses: LizAinslie/VueBuildToBranchAction@1.0.2+1
+        with:
+          username: "Koonac"
+          reponame: "HenriqueRodriguesPage"
+          token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+          gitbranch: "production" # defaults to 'gh-pages' but can be changed
+          useyarn: true

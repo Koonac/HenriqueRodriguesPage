@@ -1,5 +1,5 @@
 // .github/workflows/deploy.yaml
-name: deploy-to-production
+name: deploy
 on:
   push:
     branches:

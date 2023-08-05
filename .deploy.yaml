@@ -1,0 +1,33 @@
+// .github/workflows/deploy.yaml
+name: deploy-to-production
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '16'
+      - name: setup git auth
+        env:
+          email: 'rick.plays@hotmail.com'
+          username: 'Koonac'
+          access_token: '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'
+        run: |
+          git config --global credential.helper store
+          echo "https://${access_token}:x-oauth-basic@github.com" > ~/.git-credentials
+          git config --global user.email $email
+          git config --global user.name $username
+      - name: deploy to production
+        run: |
+          npm i
+          NODE_ENV=production npm run build
+          cd dist
+          git init
+          git add -A
+          git commit -m "🚀 Deploy id ${GITHUB_RUN_ID}"
+          git push -f "https://github.com/${GITHUB_REPOSITORY}.git" master:production

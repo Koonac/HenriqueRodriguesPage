@@ -1,27 +1,27 @@
 <template>
-  <div id="app" class="bg-light">
+  <div id="app" class="bg-image">
     <!-- IMPORTANDO TOPO -->
     <nav-bar />
     <!-- CONTEÚDO DA PAGINA -->
-    <b-container>
+    <b-container class="z-1">
       <!-- DIV DA ABA "Início" -->
-      <section id="inicio" class="bg-warning border rounded-3">
+      <section id="inicio" class="bg-warning border rounded-3 mb-4">
         <home />
       </section>
       <!-- DIV DA ABA "Sobre" -->
-      <section id="sobre">
+      <section id="sobre" class="mb-4">
         <about-me />
       </section>
       <!-- DIV DA ABA "Habilidades" -->
-      <section id="habilidades" class="bg-warning border rounded-3">
+      <section id="habilidades" class="bg-warning border rounded-3 mb-4">
         <skills />
       </section>
       <!-- DIV DA ABA "Portifólio" -->
-      <section id="portifolio">
+      <section id="portifolio" class="mb-4">
         <projects />
       </section>
       <!-- SECTION DE CONTATO -->
-      <section id="contato" class="bg-warning border rounded-3">
+      <section id="contato" class="bg-warning border rounded-3 mb-4">
         <contact />
       </section>
     </b-container>
@@ -179,4 +179,38 @@ export default {
 .bgAlternative {
   background-color: rgba(109, 100, 59, 0.404);
 }
+/* .bg-image {
+  background-image: url("@/assets/code-bg.jpg");
+  background-repeat: repeat;
+  background-color: #eeeeee;
+  opacity: 0.1;
+} */
+
+.bg-image {
+  display: block;
+  position: relative;
+}
+.bg-image::after {
+  content: "";
+  background: url("@/assets/code-bg.jpg");
+  background-color: #eeeeee;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/* .bgImage {
+  opacity: 0.1;
+  color: yellow;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-mask-image: linear-gradient(rgb(0, 0, 0) 75%, transparent 100%);
+} */
 </style>

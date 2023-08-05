@@ -1,50 +1,78 @@
 {
-  "nav": {
-    "home": "Home",
-    "aboutMe": "About",
-    "skills": "Skills",
-    "projects": "Projects",
-    "contact": "Contact"
-    },
-  "section": {
-    "home": {
-      "title": "Hi, my name is <span>{name}</span> i'm Web Developer.",
-      "contact": "Contact"
-    },
-    "aboutMe": {
-      "title": "About me",
-      "message": "Ambitious and technology-loving, seeking to leverage programming skills to create solutions for automating and streamlining daily routines."
-    },
-    "skills": {
-      "title": "Skills",
-      "skill1": "PHP",
-      "skill2": "Laravel",
-      "skill3": "JavaScript",
-      "skill4": "Vue.js",
-      "skill5": "React",
-      "skill6": "Next.js",
-      "skill7": "MySql"
-    },
-    "projects": {
-      "title": "Projects",
-      "card1": "A PHP-based Instagram clone with CRUD functionality for posts and user creation. Designed to deliver a user-friendly interface and seamless experience for managing social media content.",
-      "card2": "An integrated system with the GalaxPay payment platform, capturing customer data from the integrated platform for card printing, generating new contracts, managing company finances, and featuring access levels. User: admin Pass: admin",
-      "card3": "A Tic Tac Toe project using jQuery and CSS, one of my first projects in pure jQuery, is an excellent way to have fun playing a classic game and testing your strategic skills.",
-      "btnView": "View"
-    },
-    "contact": {
-      "title": "Contact",
-      "form": {
-        "name": "Name",
-        "email": "E-mail",
-        "message": "Enter something...",
-        "btnSend": "Send",
-        "btnSending": "Sending... "
-      },
-      "msgAlert": {
-        "successSendEmail": "Email successfully sent !",
-        "errorSendEmail": "Failed to send email, please try again !"
-      }
-    }
-  }
+	"nav": {
+		"home": "Home",
+		"aboutMe": "About",
+		"skills": "Skills",
+		"projects": "Projects",
+		"contact": "Contact"
+	},
+	"section": {
+		"home": {
+			"title": "Hi, my name is <span>{name}</span> i'm Web Developer.",
+			"contact": "Contact"
+		},
+		"aboutMe": {
+			"title": "About me",
+			"message": "Ambitious and technology-loving, seeking to leverage programming skills to create solutions for automating and streamlining daily routines."
+		},
+		"skills": {
+			"title": "Skills",
+			"skill1": {
+				"name": "JavaScript",
+				"experience": "Intermediate"
+			},
+			"skill2": {
+				"name": "Vue.js",
+				"experience": "Intermediate"
+			},
+			"skill3": {
+				"name": "Nuxt.js",
+				"experience": "Beginner"
+			},
+			"skill4": {
+				"name": "React",
+				"experience": "Beginner"
+			},
+			"skill5": {
+				"name": "Next.js",
+				"experience": "Beginner"
+			},
+			"skill6": {
+				"name": "PHP",
+				"experience": "Intermediate"
+			},
+			"skill7": {
+				"name": "Laravel",
+				"experience": "Beginner"
+			},
+			"skill8": {
+				"name": "MySQL",
+				"experience": "Intermediate"
+			}
+		},
+		"projects": {
+			"title": "Projects",
+			"card1": "A PHP-based Instagram clone with CRUD functionality for posts and user creation. Designed to deliver a user-friendly interface and seamless experience for managing social media content.",
+			"card2": "An integrated system with the GalaxPay payment platform, capturing customer data from the integrated platform for card printing, generating new contracts, managing company finances, and featuring access levels. User: admin Pass: admin",
+			"card3": "A Tic Tac Toe project using jQuery and CSS, one of my first projects in pure jQuery, is an excellent way to have fun playing a classic game and testing your strategic skills.",
+			"card4": "A landing page for 'Saúde em Riqueza' with a lead conversion questionnaire. (Vue 2)",
+			"card5": "A high-conversion sales landing page for 'MoneySage' with various persuasive animations to drive sales (Vue 2).",
+			"card6": "A sales landing page with a clear call to action for the 'Banking Law course with Cinthia Magrini' (Vue 2).",
+			"btnView": "View"
+		},
+		"contact": {
+			"title": "Contact",
+			"form": {
+				"name": "Name",
+				"email": "E-mail",
+				"message": "Enter something...",
+				"btnSend": "Send",
+				"btnSending": "Sending... "
+			},
+			"msgAlert": {
+				"successSendEmail": "Email successfully sent !",
+				"errorSendEmail": "Failed to send email, please try again !"
+			}
+		}
+	}
 }

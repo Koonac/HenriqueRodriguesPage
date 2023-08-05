@@ -7,9 +7,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - id: Build-Vue
-      uses: LizAinslie/VueBuildToBranchAction@1.0.2+1
+      uses: LizAinslie/VueBuildToBranchAction@1.0.2
       with:
         username: 'Koonac'
         reponame: 'HenriqueRodriguesPage'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
-        branch: 'production' # defaults to 'gh-pages' but can be changed
+        gitbranch: 'production' # defaults to 'gh-pages' but can be changed

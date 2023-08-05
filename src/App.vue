@@ -2,6 +2,7 @@
   <div id="app" class="bg-image">
     <!-- IMPORTANDO TOPO -->
     <nav-bar />
+    AAAAAAAAAA
     <!-- CONTEÚDO DA PAGINA -->
     <b-container class="z-1">
       <!-- DIV DA ABA "Início" -->

@@ -10,12 +10,12 @@ jobs:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
-          node-version: '16'
+          node-version: "12"
       - name: setup git auth
         env:
-          email: 'rick.plays@hotmail.com'
-          username: 'Koonac'
-          access_token: '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'
+          email: "rick.plays@hotmail.com"
+          username: "Koonac"
+          access_token: "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"
         run: |
           git config --global credential.helper store
           echo "https://${access_token}:x-oauth-basic@github.com" > ~/.git-credentials

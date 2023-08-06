@@ -5,7 +5,7 @@
     <!-- CONTEÚDO DA PAGINA -->
     <b-container class="z-1">
       <!-- DIV DA ABA "Início" -->
-      <section id="inicio" class="bg-danger border rounded-3 mb-4">
+      <section id="inicio" class="bg-warning border rounded-3 mb-4">
         <home />
       </section>
       <!-- DIV DA ABA "Sobre" -->

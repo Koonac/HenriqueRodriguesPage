@@ -9,7 +9,7 @@
 	"section": {
 		"home": {
 			"title": "Olá, meu nome é <span>{name}</span> eu sou desenvolvedor web.",
-			"contact": "Contact"
+			"contact": "Contato"
 		},
 		"aboutMe": {
 			"title": "Sobre mim",
@@ -48,6 +48,10 @@
 			"skill8": {
 				"name": "MySql",
 				"experience": "Intermediário"
+			},
+			"skill9": {
+				"name": "WordPress",
+				"experience": "Iniciante"
 			}
 		},
 		"projects": {
@@ -58,6 +62,7 @@
 			"card4": "Uma landing page para 'Saúde em Riqueza' com um questionário para conversão de leads. (Vue 2)",
 			"card5": "Uma landing page de vendas de alta conversão para 'MoneySage' com diversas animações persuasivas para induzir a venda (Vue 2).",
 			"card6": "Uma landing page de vendas com chamada direta para ação para o 'Curso de Direito Bancário com Cinthia Magrini' (Vue 2).",
+			"card7": "Sistema de login, operações CRUD (Create, Read, Update, Delete) para pagamentos e recebimentos com categorias associadas. O projeto foi construído utilizando as tecnologias Nuxt 3 para o frontend, Laravel 10 para o backend e banco de dados MySQL para armazenamento de dados.",
 			"btnView": "Ver"
 		},
 		"contact": {

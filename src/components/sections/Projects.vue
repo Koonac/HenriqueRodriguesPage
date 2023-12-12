@@ -4,6 +4,28 @@
       <div class="col text-center">
         <h2 class="titulo-secundario" v-scroll-reveal>{{ $t("section.projects.title") }}</h2>
         <div class="row">
+          <!-- PROJETO FINANCEIRO -->
+          <div class="col-md-4 py-2">
+            <b-card
+              title="Projeto Financeiro"
+              :img-src="require(`@/assets/projeto-financeiro.png`)"
+              img-alt="Image"
+              img-top
+              v-scroll-reveal
+            >
+              <b-card-text>
+                {{ $t("section.projects.card7") }}
+              </b-card-text>
+              <b-card-footer footer-class="text-end">
+                <b-btn
+                  href="http://financeiro.henriquersantos.com"
+                  class="btnSocial shadow"
+                  target="_blank"
+                  >{{ $t("section.projects.btnView") }}</b-btn
+                >
+              </b-card-footer>
+            </b-card>
+          </div>
           <!-- CYNTHIA MAGRINI -->
           <div class="col-md-4 py-2">
             <b-card

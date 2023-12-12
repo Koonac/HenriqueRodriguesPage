@@ -9,7 +9,7 @@
       </b-row>
       <b-row v-scroll-reveal>
         <div class="d-flex justify-content-between">
-          <b-btn href="#contato" class="btnSocial shadow">Contact</b-btn>
+          <b-btn href="#contato" class="btnSocial shadow">{{ $t("section.home.contact") }}</b-btn>
           <div>
             <b-link
               class="px-2 socialIcons"

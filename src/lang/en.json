@@ -48,6 +48,10 @@
 			"skill8": {
 				"name": "MySQL",
 				"experience": "Intermediate"
+			},
+			"skill9": {
+				"name": "WordPress",
+				"experience": "Beginner"
 			}
 		},
 		"projects": {
@@ -58,6 +62,7 @@
 			"card4": "A landing page for 'Saúde em Riqueza' with a lead conversion questionnaire. (Vue 2)",
 			"card5": "A high-conversion sales landing page for 'MoneySage' with various persuasive animations to drive sales (Vue 2).",
 			"card6": "A sales landing page with a clear call to action for the 'Banking Law course with Cinthia Magrini' (Vue 2).",
+			"card7": "A login system, CRUD operations (Create, Read, Update, Delete) for payments and receipts with associated categories. The project was built using Nuxt 3 for the frontend, Laravel 10 for the backend, and MySQL database for data storage.",
 			"btnView": "View"
 		},
 		"contact": {
